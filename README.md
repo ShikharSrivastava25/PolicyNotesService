@@ -13,5 +13,13 @@ Used Unit testing and Integration testing to test the Services and Repository.
 
 ## API Methods and Results 
 
-<img width="1830" height="952" alt="image" src="https://github.com/user-attachments/assets/e9e72df7-7bae-4267-bd30-2f89807953db" />
-<img width="1878" height="953" alt="image" src="https://github.com/user-attachments/assets/f6e92f0c-0f10-43c3-b54b-e34e4ede189f" />
+### POST Request
+<img width="1888" height="952" alt="image" src="https://github.com/user-attachments/assets/28655827-7f5b-4800-84c1-79ac5e26c63c" />
+<img width="1897" height="955" alt="image" src="https://github.com/user-attachments/assets/3391801f-8e4a-49c6-a7a9-c2788fa83884" />
+
+### GET Request
+<img width="1893" height="956" alt="image" src="https://github.com/user-attachments/assets/d882e6f1-f14c-4d53-b1be-9ea417041de2" />
+
+### GET by Id Request
+<img width="1890" height="949" alt="image" src="https://github.com/user-attachments/assets/8ad3c87d-fac6-4f87-9339-b46993bad18b" />
+<img width="1879" height="624" alt="image" src="https://github.com/user-attachments/assets/b6cb164d-8bde-4b41-93a4-c23879bd0715" />
