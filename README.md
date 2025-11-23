@@ -18,6 +18,7 @@ Used Unit testing and Integration testing to test the Services and Repository.
 <img width="1897" height="955" alt="image" src="https://github.com/user-attachments/assets/3391801f-8e4a-49c6-a7a9-c2788fa83884" />
 
 ### GET Request
+<img width="1863" height="356" alt="image" src="https://github.com/user-attachments/assets/22df5f5c-8b7c-46a9-9e0f-00673b890d8b" />
 <img width="1893" height="956" alt="image" src="https://github.com/user-attachments/assets/d882e6f1-f14c-4d53-b1be-9ea417041de2" />
 
 ### GET by Id Request
