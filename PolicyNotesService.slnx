@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PolicyNotesService.Tests/PolicyNotesService.Tests.csproj" />
+  <Project Path="PolicyNotesService/PolicyNotesService.csproj" />
+</Solution>
