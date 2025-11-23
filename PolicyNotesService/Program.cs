@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PolicyNotesService.Data;
 using PolicyNotesService.Dto;
+using PolicyNotesService.Models;
 using PolicyNotesService.Repository;
 using PolicyNotesService.Service;
 
@@ -15,7 +16,6 @@ if (!builder.Environment.IsEnvironment("Testing"))
 
 builder.Services.AddScoped<IPolicyNoteRepository, PolicyNoteRepository>();
 builder.Services.AddScoped<IPolicyNotesService, PolicyNoteService>();
-
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -60,6 +60,16 @@ if (!app.Environment.IsEnvironment("Testing"))
     {
         var db = scope.ServiceProvider.GetRequiredService<NotesDbContext>();
         db.Database.EnsureCreated();
+
+        if (!db.PolicyNotes.Any())
+        {
+            db.PolicyNotes.AddRange(
+                new PolicyNote { PolicyNumber = "P-100", Note = "Initial seed note 1" },
+                new PolicyNote { PolicyNumber = "P-200", Note = "Initial seed note 2" },
+                new PolicyNote { PolicyNumber = "P-300", Note = "Initial seed note 3" }
+            );
+            db.SaveChanges();
+        }
     }
 }
 
