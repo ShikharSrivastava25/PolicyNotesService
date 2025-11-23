@@ -1,0 +1,31 @@
+Project Structure
+
+├── PolicyNotesService
+│   ├── Program.cs
+│   │
+│   ├── Data
+│   │   └── NotesDbContext.cs
+│   │
+│   ├── Dto
+│   │   ├── PolicyNoteCreateDto.cs
+│   │   └── PolicyNoteDto.cs
+│   │
+│   ├── Models
+│   │   └── PolicyNote.cs
+│   │
+│   ├── Repository
+│   │   ├── IPolicyNoteRepository.cs
+│   │   └── PolicyNoteRepository.cs
+│   │
+│   └── Service
+│       ├── IPolicyNotesService.cs
+│       └── PolicyNoteService.cs
+│
+└── PolicyNotesService.Tests
+    ├── PolicyNotesService.Tests.csproj
+    │
+    ├── IntegrationTest
+    │   └── NotesApiTests.cs
+    │
+    └── UnitTest
+        └── PolicyNoteServiceTests.cs
